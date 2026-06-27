@@ -957,7 +957,7 @@ public class GpsLoggingService extends Service  {
      *
      * @param loc Location object
      */
-    void onLocationChanged(Location loc) {
+    void onLocationChanged(Location loc) throws IOException {
         if (!session.isStarted()) {
             LOG.debug("onLocationChanged called, but session.isStarted is false");
             stopLogging();
@@ -1255,7 +1255,7 @@ public class GpsLoggingService extends Service  {
      *
      * @param loc Location object
      */
-    private void writeToFile(Location loc) {
+    private void writeToFile(Location loc) throws IOException {
         //session.setAddNewTrackSegment(false);
 
         if(FileLoggerFactory.getFileLoggers(getApplicationContext()).isEmpty()){
