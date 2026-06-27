@@ -506,6 +506,9 @@
     <string name="significant_motion_bypass_interval_title">Extended no motion heartbeat interval</string>
     <string name="significant_motion_bypass_interval_summary">During extended periods of no significant motion, ocassionally bypass the check and take a heartbeat log anyway as determined by this interval. A value less than 1 minute disables the interval.</string>
     <string name="time_in_minutes_dialog_title">Time in minutes</string>
+    <string name="significant_motion_bypass_interval_title">Extended no motion heartbeat interval</string>
+    <string name="significant_motion_bypass_interval_summary">During extended periods of no significant motion, ocassionally bypass the check and take a heartbeat log anyway as determined by this interval. A value less than 1 minute disables the interval.</string>
+    <string name="time_in_minutes_dialog_title">Time in minutes</string>
     <string name="log_dawarich_setup_title">Dawarich</string>
     <string name="log_dawarich_title">Log into a Dawarich instance</string>
     <string name="log_dawarich_summary_detailed">Sends the recorded position to a defined Dawarich instance</string>
